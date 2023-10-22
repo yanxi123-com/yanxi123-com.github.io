@@ -99,7 +99,7 @@ social:
   #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/yanxi/
+    link: https://github.com/yanxi123-com/
     label: github
     display:
       header: true
