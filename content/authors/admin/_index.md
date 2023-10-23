@@ -3,7 +3,7 @@
 title: 阎曦
 
 # Name pronunciation (optional)
-name_pronunciation: YanXi
+# name_pronunciation: YanXi
 
 # Full name (for SEO)
 first_name: Xi
@@ -100,7 +100,7 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/yanxi123-com/
-    label: github
+    label: GitHub-阎曦
     display:
       header: true
   - icon: weibo
@@ -117,12 +117,10 @@ social:
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/yanxi/
-    label: Follow me on Twitter
+    label: 在 Twitter 关注我
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-
-互联网老兵，关注低代码相关的技术、产品和应用。
 
 {style="text-align: justify;"}

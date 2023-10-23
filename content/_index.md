@@ -5,7 +5,7 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: about.biography
+  - block: about.avatar
     id: about
     content:
       title: 个人介绍
@@ -118,7 +118,7 @@ sections:
       order: desc
     design:
       # Choose a layout view
-      view: compact
+      view: compact # compact/showcace/card/citation/list
       columns: '2'
   - block: portfolio
     id: projects
