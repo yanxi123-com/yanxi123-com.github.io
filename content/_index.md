@@ -155,77 +155,20 @@ sections:
   #       {{< gallery album="demo" >}}
   #   design:
   #     columns: '1'
-  # - block: collection
-  #   id: featured
-  #   content:
-  #     title: Featured Publications
-  #     filters:
-  #       folders:
-  #         - publication
-  #       featured_only: true
-  #   design:
-  #     columns: '2'
-  #     view: card
-  # - block: collection
-  #   content:
-  #     title: Recent Publications
-  #     text: |-
-  #       {{% callout note %}}
-  #       Quickly discover relevant content by [filtering publications](./publication/).
-  #       {{% /callout %}}
-  #     filters:
-  #       folders:
-  #         - publication
-  #       exclude_featured: true
-  #   design:
-  #     columns: '2'
-  #     view: citation
-  # - block: collection
-  #   id: talks
-  #   content:
-  #     title: Recent & Upcoming Talks
-  #     filters:
-  #       folders:
-  #         - event
-  #   design:
-  #     columns: '2'
-  #     view: compact
+  - block: collection
+    id: contact
+    content:
+      title: 联系
+      filters:
+        folders:
+          - contact
+    design:
+      columns: '2'
+      view: compact
+
   - block: tag_cloud
     content:
       title: 热门标签
     design:
       columns: '1'
-  - block: contact
-    id: contact
-    content:
-      title: 联系
-      subtitle:
-      # Contact (add or remove contact options as necessary)
-      email: yanxi@yanxi123.com
-      contact_links:
-        - icon: weixin
-          icon_pack: fab
-          name: "微信号: yanxi123_com"
-          link: '#contact'
-        # - icon: twitter
-        #   icon_pack: fab
-        #   name: DM Me
-        #   link: 'https://twitter.com/yanxi'
-        
-        # - icon: video
-        #   icon_pack: fas
-        #   name: Zoom Me
-        #   link: 'https://zoom.com'
-      # Automatically link email and phone or display as text?
-      autolink: true
-      # Email form provider
-      # form:
-      #   provider: netlify
-      #   formspree:
-      #     id:
-      #   netlify:
-      #     # Enable CAPTCHA challenge to reduce spam?
-      #     captcha: false
-    design:
-      columns: '2'
 ---
