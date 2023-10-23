@@ -54,12 +54,12 @@ skills:
     - name: 前端技术（TypeScript、React)
       description: ''
       percent: 90
-      icon: python
-      icon_pack: fab
+      icon: laptop-code
+      icon_pack: fas
     - name: 后端技术 (Nodejs、Java、Python)
       description: ''
       percent: 70
-      icon: chart-line
+      icon: server
       icon_pack: fas
     - name: 数据库
       description: ''
@@ -70,20 +70,20 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: 健身
+      - name: 写代码 & 新技术/产品探索
         description: ''
         percent: 60
-        icon: person-hiking
+        icon: code
         icon_pack: fas
-      - name: 跑步
+      - name: 投资理财-指数基金
         description: ''
         percent: 50
-        icon: cat
+        icon: wallet
         icon_pack: fas
-      - name: 美食
+      - name: 健康-运动/饮食/睡眠
         description: ''
         percent: 80
-        icon: camera-retro
+        icon: person-running
         icon_pack: fas
 
 # Social/Academic Networking
@@ -114,10 +114,10 @@ social:
     icon_pack: fab
     link: https://www.zhihu.com/people/yanxi123_com/
     label: 知乎-阎曦说低代码
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/yanxi/
-    label: 在 Twitter 关注我
+  # - icon: twitter
+  #   icon_pack: fab
+  #   link: https://twitter.com/yanxi/
+  #   label: 在 Twitter 关注我
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true

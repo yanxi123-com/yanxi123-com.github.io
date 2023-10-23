@@ -1,3 +1,36 @@
+
+.home-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    &:first-of-type {
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home-section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+pre {
+    border: 1px solid #d0d7de;
+    padding: 16px;
+    background-color: rgb(246, 248, 250);
+    border-radius: 6px;
+}
+
+.dark pre {
+    border: 1px solid #555;
+    padding: 16px;
+    color: #aaa; 
+    background-color: #222;
+    border-radius: 6px;
+}
+
 .site-footer {
     margin-bottom: 10px;
 }
+

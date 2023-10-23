@@ -45,17 +45,17 @@ header:
 
 footer:
   copyright:
-    notice: '{year} © yanxi123.com'
+    notice: '{year} © [Yanxi123.com](https://yanxi123.com/)'
     license:
       enable: false
       allow_derivatives: false
       share_alike: true
-      allow_commercial: false
+    allow_commercial: false
 
 # Localization
 
 locale:
-  date_format: 'Jan 2, 2006'
+  date_format: '2006-01-02'
   time_format: '3:04 PM'
   address_format: en-us
 
