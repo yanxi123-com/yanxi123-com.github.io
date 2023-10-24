@@ -10,7 +10,7 @@ baseURL: 'https://yanxi123.com/' # Website URL
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: en
+defaultContentLanguage: zh
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
@@ -73,3 +73,8 @@ sitemap:
   _merge: deep
 minify:
   _merge: deep
+
+cascade:
+  show_related: true
+  pager: true
+  show_breadcrumb: false

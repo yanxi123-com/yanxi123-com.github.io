@@ -29,7 +29,7 @@ categories:
 ```javascript
 app.get('*', function(req, res, next) {
     var ua = req.header('user-agent');
-    if (ua &amp;&amp; ua.match(/safari/i)) {
+    if (ua && ua.match(/safari/i)) {
         req.headers['if-none-match'] = undefined;
     }
     next();
