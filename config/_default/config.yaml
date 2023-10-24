@@ -11,7 +11,7 @@ baseURL: 'https://yanxi123.com/' # Website URL
 ############################
 
 defaultContentLanguage: zh
-hasCJKLanguage: false
+hasCJKLanguage: true
 defaultContentLanguageInSubdir: false
 removePathAccents: true
 
