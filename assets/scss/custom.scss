@@ -19,6 +19,42 @@
     text-decoration: underline;
 }
 
+.article-style {
+    h2 {
+        font-weight: 600;
+        white-space: normal;
+        margin: 2rem 1rem 1.5rem;
+        padding: 0 0 0.5rem 0;
+        font-size: 1.3rem;
+        color: rgb(0, 150, 136);
+        border-bottom: 1px solid rgb(238, 238, 238);
+        text-align: center !important;
+        visibility: visible;
+    }
+    h3 {
+        font-weight: 600;
+        font-size: 1.2rem;
+        white-space: normal;
+        margin: 1.5rem 0 1rem;
+        padding-left: 0.5rem;
+        color: black;
+        text-align: left !important;
+        border-left: 4px solid rgb(0, 150, 136);
+    }
+}
+.dark {
+    .article-style {
+        h2 {
+            color: white;
+            border-color: #444;
+        }
+        h3 {
+            color: white;
+            border-color: #e83e8c;
+        }
+    }
+}
+
 .post-nav-item a {
     text-decoration: underline;
 }
