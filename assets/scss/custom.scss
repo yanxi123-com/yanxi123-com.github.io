@@ -65,6 +65,9 @@
     vertical-align: top;
     border: 1px solid #dee2e6;
 }
+.dark .table thead th {
+    background-color: #222;
+}
 
 .post-nav-item a {
     text-decoration: underline;
