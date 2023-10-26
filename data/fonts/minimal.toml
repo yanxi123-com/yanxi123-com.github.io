@@ -1,0 +1,16 @@
+# from https://github.com/wowchemy/wowchemy-hugo-themes/blob/main/modules/wowchemy/layouts/partials/site_head.html
+
+# Font style metadata
+name = "Minimal"
+
+# Optional Google font URL
+# google_fonts = "family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700"
+
+# 国内访问 google 缓慢，所以去掉
+google_fonts = ""
+
+# Font families
+heading_font = "Montserrat"
+body_font = "Roboto"
+nav_font = "Roboto"
+mono_font = "Roboto Mono"

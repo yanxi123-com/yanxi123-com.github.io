@@ -17,9 +17,9 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    org_name: 'yanxi123.com'
+    description: '互联网老兵，关注低代码领域的技术、产品和应用。'
+    twitter: 'yanxi'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
